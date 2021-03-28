@@ -1,10 +1,6 @@
-from pprint import pprint
-
-
 with open('input.csv', encoding='utf-8') as input_file:
 	head_line = input_file.readline()
 	dlist = input_file.read().splitlines()
-	print(head_line)
 
 new_dlist = []
 
